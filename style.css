@@ -106,3 +106,24 @@ form input.operator-btn{
     color: #ffffff;
     box-shadow: inset -3px -3px 8px rgba(255, 255, 255, 0.1),inset 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 400px) {
+    .calculator{
+        width: 90%;
+    }
+
+    form .display input{
+        font-size: 30px;
+    }
+
+    .calculator form input{
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    form input.equal{
+        width: 110px;
+    }
+
+}
